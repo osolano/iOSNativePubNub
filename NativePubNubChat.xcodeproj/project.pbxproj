@@ -11,7 +11,6 @@
 		6BC92D751E4D65F2002B1B85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC92D741E4D65F2002B1B85 /* AppDelegate.swift */; };
 		6BC92D771E4D65F2002B1B85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC92D761E4D65F2002B1B85 /* ViewController.swift */; };
 		6BC92D7A1E4D65F2002B1B85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC92D781E4D65F2002B1B85 /* Main.storyboard */; };
-		6BC92D7D1E4D65F2002B1B85 /* NativePubNubChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6BC92D7B1E4D65F2002B1B85 /* NativePubNubChat.xcdatamodeld */; };
 		6BC92D7F1E4D65F2002B1B85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC92D7E1E4D65F2002B1B85 /* Assets.xcassets */; };
 		6BC92D821E4D65F2002B1B85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC92D801E4D65F2002B1B85 /* LaunchScreen.storyboard */; };
 		6BC92D8D1E4D65F3002B1B85 /* NativePubNubChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC92D8C1E4D65F2002B1B85 /* NativePubNubChatTests.swift */; };
@@ -45,7 +44,6 @@
 		6BC92D741E4D65F2002B1B85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BC92D761E4D65F2002B1B85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6BC92D791E4D65F2002B1B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6BC92D7C1E4D65F2002B1B85 /* NativePubNubChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NativePubNubChat.xcdatamodel; sourceTree = "<group>"; };
 		6BC92D7E1E4D65F2002B1B85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BC92D811E4D65F2002B1B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BC92D831E4D65F2002B1B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -132,7 +130,6 @@
 				6BC92D7E1E4D65F2002B1B85 /* Assets.xcassets */,
 				6BC92D801E4D65F2002B1B85 /* LaunchScreen.storyboard */,
 				6BC92D831E4D65F2002B1B85 /* Info.plist */,
-				6BC92D7B1E4D65F2002B1B85 /* NativePubNubChat.xcdatamodeld */,
 			);
 			path = NativePubNubChat;
 			sourceTree = "<group>";
@@ -454,7 +451,6 @@
 			files = (
 				6BC92D771E4D65F2002B1B85 /* ViewController.swift in Sources */,
 				6BC92D751E4D65F2002B1B85 /* AppDelegate.swift in Sources */,
-				6BC92D7D1E4D65F2002B1B85 /* NativePubNubChat.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,6 +709,7 @@
 				6BC92D9E1E4D65F3002B1B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BC92D9F1E4D65F3002B1B85 /* Build configuration list for PBXNativeTarget "NativePubNubChatTests" */ = {
 			isa = XCConfigurationList;
@@ -721,6 +718,7 @@
 				6BC92DA11E4D65F3002B1B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BC92DA21E4D65F3002B1B85 /* Build configuration list for PBXNativeTarget "NativePubNubChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -729,21 +727,9 @@
 				6BC92DA41E4D65F3002B1B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		6BC92D7B1E4D65F2002B1B85 /* NativePubNubChat.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				6BC92D7C1E4D65F2002B1B85 /* NativePubNubChat.xcdatamodel */,
-			);
-			currentVersion = 6BC92D7C1E4D65F2002B1B85 /* NativePubNubChat.xcdatamodel */;
-			path = NativePubNubChat.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 6BC92D691E4D65F2002B1B85 /* Project object */;
 }
