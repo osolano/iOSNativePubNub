@@ -53,6 +53,7 @@
 		6BC92D931E4D65F3002B1B85 /* NativePubNubChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativePubNubChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BC92D971E4D65F3002B1B85 /* NativePubNubChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePubNubChatUITests.swift; sourceTree = "<group>"; };
 		6BC92D991E4D65F3002B1B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BC92DA51E4D6A7E002B1B85 /* PubNubPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PubNubPlayground.playground; sourceTree = "<group>"; };
 		788EBEA3A4A26FC612912B36 /* Pods_NativePubNubChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativePubNubChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8769690F9D64D871481EDDE /* Pods-NativePubNubChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativePubNubChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NativePubNubChatTests/Pods-NativePubNubChatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ABAEED993133C8D7D938FDB0 /* Pods-NativePubNubChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativePubNubChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NativePubNubChat/Pods-NativePubNubChat.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				6BC92D741E4D65F2002B1B85 /* AppDelegate.swift */,
+				6BC92DA51E4D6A7E002B1B85 /* PubNubPlayground.playground */,
 				6BC92D761E4D65F2002B1B85 /* ViewController.swift */,
 				6BC92D781E4D65F2002B1B85 /* Main.storyboard */,
 				6BC92D7E1E4D65F2002B1B85 /* Assets.xcassets */,
