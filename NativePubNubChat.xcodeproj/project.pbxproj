@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A6335828C2F6A8F0D97EDDE /* Pods_NativePubNubChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF71FCC3EA56D3A3EF52E840 /* Pods_NativePubNubChatTests.framework */; };
 		6BC92D751E4D65F2002B1B85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC92D741E4D65F2002B1B85 /* AppDelegate.swift */; };
 		6BC92D771E4D65F2002B1B85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC92D761E4D65F2002B1B85 /* ViewController.swift */; };
 		6BC92D7A1E4D65F2002B1B85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC92D781E4D65F2002B1B85 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		6BC92D821E4D65F2002B1B85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC92D801E4D65F2002B1B85 /* LaunchScreen.storyboard */; };
 		6BC92D8D1E4D65F3002B1B85 /* NativePubNubChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC92D8C1E4D65F2002B1B85 /* NativePubNubChatTests.swift */; };
 		6BC92D981E4D65F3002B1B85 /* NativePubNubChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC92D971E4D65F3002B1B85 /* NativePubNubChatUITests.swift */; };
+		9B21E7B481F6AD41CC7C5C3A /* Pods_NativePubNubChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D2DF3145F23E19D5B67648 /* Pods_NativePubNubChatUITests.framework */; };
+		DFE2879685834C09D3D7486C /* Pods_NativePubNubChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788EBEA3A4A26FC612912B36 /* Pods_NativePubNubChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BCBF9BAF48C34806378AC76 /* Pods-NativePubNubChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativePubNubChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NativePubNubChatUITests/Pods-NativePubNubChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		11D2DF3145F23E19D5B67648 /* Pods_NativePubNubChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativePubNubChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		238B1F37EBA310BAE1B306C2 /* Pods-NativePubNubChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativePubNubChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NativePubNubChatTests/Pods-NativePubNubChatTests.release.xcconfig"; sourceTree = "<group>"; };
 		6BC92D711E4D65F2002B1B85 /* NativePubNubChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativePubNubChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BC92D741E4D65F2002B1B85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BC92D761E4D65F2002B1B85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		6BC92D931E4D65F3002B1B85 /* NativePubNubChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativePubNubChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BC92D971E4D65F3002B1B85 /* NativePubNubChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePubNubChatUITests.swift; sourceTree = "<group>"; };
 		6BC92D991E4D65F3002B1B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		788EBEA3A4A26FC612912B36 /* Pods_NativePubNubChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativePubNubChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8769690F9D64D871481EDDE /* Pods-NativePubNubChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativePubNubChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NativePubNubChatTests/Pods-NativePubNubChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABAEED993133C8D7D938FDB0 /* Pods-NativePubNubChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativePubNubChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NativePubNubChat/Pods-NativePubNubChat.debug.xcconfig"; sourceTree = "<group>"; };
+		B67AFBCC514FEB00C10EB178 /* Pods-NativePubNubChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativePubNubChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-NativePubNubChat/Pods-NativePubNubChat.release.xcconfig"; sourceTree = "<group>"; };
+		CA2F0FFF636178413CBA48E4 /* Pods-NativePubNubChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativePubNubChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NativePubNubChatUITests/Pods-NativePubNubChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FF71FCC3EA56D3A3EF52E840 /* Pods_NativePubNubChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativePubNubChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFE2879685834C09D3D7486C /* Pods_NativePubNubChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A6335828C2F6A8F0D97EDDE /* Pods_NativePubNubChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B21E7B481F6AD41CC7C5C3A /* Pods_NativePubNubChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		457AB796046D516030E7141C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				788EBEA3A4A26FC612912B36 /* Pods_NativePubNubChat.framework */,
+				FF71FCC3EA56D3A3EF52E840 /* Pods_NativePubNubChatTests.framework */,
+				11D2DF3145F23E19D5B67648 /* Pods_NativePubNubChatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6BC92D681E4D65F2002B1B85 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				6BC92D8B1E4D65F2002B1B85 /* NativePubNubChatTests */,
 				6BC92D961E4D65F3002B1B85 /* NativePubNubChatUITests */,
 				6BC92D721E4D65F2002B1B85 /* Products */,
+				76D190D840D55AE897AB1144 /* Pods */,
+				457AB796046D516030E7141C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +155,19 @@
 			path = NativePubNubChatUITests;
 			sourceTree = "<group>";
 		};
+		76D190D840D55AE897AB1144 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABAEED993133C8D7D938FDB0 /* Pods-NativePubNubChat.debug.xcconfig */,
+				B67AFBCC514FEB00C10EB178 /* Pods-NativePubNubChat.release.xcconfig */,
+				A8769690F9D64D871481EDDE /* Pods-NativePubNubChatTests.debug.xcconfig */,
+				238B1F37EBA310BAE1B306C2 /* Pods-NativePubNubChatTests.release.xcconfig */,
+				0BCBF9BAF48C34806378AC76 /* Pods-NativePubNubChatUITests.debug.xcconfig */,
+				CA2F0FFF636178413CBA48E4 /* Pods-NativePubNubChatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BC92D9C1E4D65F3002B1B85 /* Build configuration list for PBXNativeTarget "NativePubNubChat" */;
 			buildPhases = (
+				B77BC0DC546452C535653949 /* [CP] Check Pods Manifest.lock */,
 				6BC92D6D1E4D65F2002B1B85 /* Sources */,
 				6BC92D6E1E4D65F2002B1B85 /* Frameworks */,
 				6BC92D6F1E4D65F2002B1B85 /* Resources */,
+				6A523F6BD3612672BF180FEA /* [CP] Embed Pods Frameworks */,
+				8395008CE641E6F18FCC3146 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BC92D9F1E4D65F3002B1B85 /* Build configuration list for PBXNativeTarget "NativePubNubChatTests" */;
 			buildPhases = (
+				88D71AD86F624560FA62971F /* [CP] Check Pods Manifest.lock */,
 				6BC92D841E4D65F2002B1B85 /* Sources */,
 				6BC92D851E4D65F2002B1B85 /* Frameworks */,
 				6BC92D861E4D65F2002B1B85 /* Resources */,
+				372FA2F0BC9F521B997F53FA /* [CP] Embed Pods Frameworks */,
+				92309B19CA795B7B90D9F692 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BC92DA21E4D65F3002B1B85 /* Build configuration list for PBXNativeTarget "NativePubNubChatUITests" */;
 			buildPhases = (
+				232367045E96BD19E26672AB /* [CP] Check Pods Manifest.lock */,
 				6BC92D8F1E4D65F3002B1B85 /* Sources */,
 				6BC92D901E4D65F3002B1B85 /* Frameworks */,
 				6BC92D911E4D65F3002B1B85 /* Resources */,
+				40CD04CA19468DBEF94BF68F /* [CP] Embed Pods Frameworks */,
+				00FAD084DCF46C8FCBBF0383 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +308,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00FAD084DCF46C8FCBBF0383 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativePubNubChatUITests/Pods-NativePubNubChatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		232367045E96BD19E26672AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		372FA2F0BC9F521B997F53FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativePubNubChatTests/Pods-NativePubNubChatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40CD04CA19468DBEF94BF68F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativePubNubChatUITests/Pods-NativePubNubChatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A523F6BD3612672BF180FEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativePubNubChat/Pods-NativePubNubChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8395008CE641E6F18FCC3146 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativePubNubChat/Pods-NativePubNubChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88D71AD86F624560FA62971F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92309B19CA795B7B90D9F692 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativePubNubChatTests/Pods-NativePubNubChatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B77BC0DC546452C535653949 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6BC92D6D1E4D65F2002B1B85 /* Sources */ = {
@@ -417,10 +604,12 @@
 		};
 		6BC92D9D1E4D65F3002B1B85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABAEED993133C8D7D938FDB0 /* Pods-NativePubNubChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LKUKK4X746;
 				INFOPLIST_FILE = NativePubNubChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oliversolano.NativePubNubChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,10 +619,12 @@
 		};
 		6BC92D9E1E4D65F3002B1B85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B67AFBCC514FEB00C10EB178 /* Pods-NativePubNubChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LKUKK4X746;
 				INFOPLIST_FILE = NativePubNubChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oliversolano.NativePubNubChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,6 +634,7 @@
 		};
 		6BC92DA01E4D65F3002B1B85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8769690F9D64D871481EDDE /* Pods-NativePubNubChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +650,7 @@
 		};
 		6BC92DA11E4D65F3002B1B85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238B1F37EBA310BAE1B306C2 /* Pods-NativePubNubChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +666,7 @@
 		};
 		6BC92DA31E4D65F3002B1B85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BCBF9BAF48C34806378AC76 /* Pods-NativePubNubChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = LKUKK4X746;
@@ -487,6 +681,7 @@
 		};
 		6BC92DA41E4D65F3002B1B85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA2F0FFF636178413CBA48E4 /* Pods-NativePubNubChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = LKUKK4X746;
